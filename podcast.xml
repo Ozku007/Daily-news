@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" 
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Daily Executive News Briefing</title>
     <link>https://ozku007.github.io/Daily-news/</link>
-    <language>en-gb</language>
+    <language>en</language>
     <itunes:author>Executive News Agent</itunes:author>
     <description>Daily synthesized executive briefing from the Financial Times and The Economist.</description>
-    <itunes:image href="https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=1400"/>
+    <itunes:summary>Daily synthesized executive briefing from the Financial Times and The Economist.</itunes:summary>
+    <itunes:image href="https://ozku007.github.io/Daily-news/cover.jpg"/>
+    <itunes:explicit>false</itunes:explicit>
     <itunes:category text="News"/>
+    <itunes:owner>
+      <itunes:name>Executive News Agent</itunes:name>
+      <itunes:email>newsagent@gmail.com</itunes:email>
+    </itunes:owner>
     <item>
       <title>Executive Briefing: UK Policy, Housing and Resilience</title>
+      <itunes:author>Executive News Agent</itunes:author>
       <description>Daily synthesized executive briefing from the Financial Times and The Economist.</description>
+      <itunes:summary>Daily synthesized executive briefing from the Financial Times and The Economist.</itunes:summary>
       <pubDate>Sat, 26 Sep 2026 18:26:06 +0000</pubDate>
       <enclosure url="https://ozku007.github.io/Daily-news/briefing.mp3" length="1085040" type="audio/mpeg"/>
       <guid isPermaLink="false">briefing-202609261826</guid>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>180</itunes:duration>
     </item>
   </channel>
 </rss>
